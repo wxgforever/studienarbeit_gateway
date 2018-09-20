@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/server_nodeset.dir/server_nodeset.c.o CMakeFiles/server_nodeset.dir/__/__/src_generated/example_nodeset.c.o  -o ../../bin/examples/server_nodeset  ../../bin/libopen62541.a -lm -lrt 

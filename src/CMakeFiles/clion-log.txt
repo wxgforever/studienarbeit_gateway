@@ -1,0 +1,5 @@
+/home/wxg/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/wxg/open62541
+-- Could NOT find LATEX (missing: LATEX_COMPILER) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wxg/open62541/build

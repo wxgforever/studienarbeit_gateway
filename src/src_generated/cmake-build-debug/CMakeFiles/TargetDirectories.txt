@@ -1,0 +1,3 @@
+/home/wxg/open62541/build/src_generated/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wxg/open62541/build/src_generated/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wxg/open62541/build/src_generated/cmake-build-debug/CMakeFiles/src_generated.dir

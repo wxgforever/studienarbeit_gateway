@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/src_generated.dir/example_nodeset.c.o CMakeFiles/src_generated.dir/ua_namespace0.c.o CMakeFiles/src_generated.dir/ua_statuscode_descriptions.c.o CMakeFiles/src_generated.dir/ua_transport_generated.c.o CMakeFiles/src_generated.dir/ua_types_generated.c.o  -o src_generated 

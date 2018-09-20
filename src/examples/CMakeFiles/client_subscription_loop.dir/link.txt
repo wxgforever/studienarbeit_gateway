@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/client_subscription_loop.dir/client_subscription_loop.c.o  -o ../bin/examples/client_subscription_loop  ../bin/libopen62541.a -lm -lrt 

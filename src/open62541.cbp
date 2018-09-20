@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="open62541"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tools\;CMake Files\tools\cmake\;CMake Files\include\;CMake Files\doc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpplint">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 cpplint"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-generator-types">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-generator-types"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-generator-statuscode">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-generator-statuscode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-amalgamation-source">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-amalgamation-source"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-plugins">
+				<Option output="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/open62541-plugins.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUA_DYNAMIC_LINKING_EXPORT"/>
+					<Add option="-DUA_NO_AMALGAMATION"/>
+					<Add directory="/home/wxg/open62541/include"/>
+					<Add directory="/home/wxg/open62541/plugins"/>
+					<Add directory="/home/wxg/open62541/deps"/>
+					<Add directory="/home/wxg/open62541/build"/>
+					<Add directory="/home/wxg/open62541/build/src_generated"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-plugins"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-plugins/fast">
+				<Option output="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/open62541-plugins.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUA_DYNAMIC_LINKING_EXPORT"/>
+					<Add option="-DUA_NO_AMALGAMATION"/>
+					<Add directory="/home/wxg/open62541/include"/>
+					<Add directory="/home/wxg/open62541/plugins"/>
+					<Add directory="/home/wxg/open62541/deps"/>
+					<Add directory="/home/wxg/open62541/build"/>
+					<Add directory="/home/wxg/open62541/build/src_generated"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-plugins/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-generator-transport">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-generator-transport"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lint">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 lint"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-amalgamation-header">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-amalgamation-header"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-generator-namespace">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-generator-namespace"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-object">
+				<Option output="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/open62541-object.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUA_DYNAMIC_LINKING_EXPORT"/>
+					<Add option="-DUA_NO_AMALGAMATION"/>
+					<Add directory="/home/wxg/open62541/include"/>
+					<Add directory="/home/wxg/open62541/plugins"/>
+					<Add directory="/home/wxg/open62541/deps"/>
+					<Add directory="/home/wxg/open62541/build"/>
+					<Add directory="/home/wxg/open62541/build/src_generated"/>
+					<Add directory="/home/wxg/open62541/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-object"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541-object/fast">
+				<Option output="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/open62541-object.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUA_DYNAMIC_LINKING_EXPORT"/>
+					<Add option="-DUA_NO_AMALGAMATION"/>
+					<Add directory="/home/wxg/open62541/include"/>
+					<Add directory="/home/wxg/open62541/plugins"/>
+					<Add directory="/home/wxg/open62541/deps"/>
+					<Add directory="/home/wxg/open62541/build"/>
+					<Add directory="/home/wxg/open62541/build/src_generated"/>
+					<Add directory="/home/wxg/open62541/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541-object/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541">
+				<Option output="/home/wxg/open62541/build/bin/libopen62541.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUA_DYNAMIC_LINKING_EXPORT"/>
+					<Add option="-DUA_NO_AMALGAMATION"/>
+					<Add directory="/home/wxg/open62541/include"/>
+					<Add directory="/home/wxg/open62541/plugins"/>
+					<Add directory="/home/wxg/open62541/deps"/>
+					<Add directory="/home/wxg/open62541/build"/>
+					<Add directory="/home/wxg/open62541/build/src_generated"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="open62541/fast">
+				<Option output="/home/wxg/open62541/build/bin/libopen62541.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wxg/open62541/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUA_DYNAMIC_LINKING_EXPORT"/>
+					<Add option="-DUA_NO_AMALGAMATION"/>
+					<Add directory="/home/wxg/open62541/include"/>
+					<Add directory="/home/wxg/open62541/plugins"/>
+					<Add directory="/home/wxg/open62541/deps"/>
+					<Add directory="/home/wxg/open62541/build"/>
+					<Add directory="/home/wxg/open62541/build/src_generated"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 open62541/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc_latex">
+				<Option working_dir="/home/wxg/open62541/build/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 doc_latex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc_pdf">
+				<Option working_dir="/home/wxg/open62541/build/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 doc_pdf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc">
+				<Option working_dir="/home/wxg/open62541/build/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 doc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wxg/open62541/build/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/deps/libc_time.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/deps/pcg_basic.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/client/ua_client.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/client/ua_client_connect.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/client/ua_client_discovery.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/client/ua_client_highlevel.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/client/ua_client_subscriptions.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/client/ua_client_subscriptions_deprecated.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_nodes.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_securechannel_manager.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_server.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_server_binary.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_server_discovery.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_server_ns0.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_server_utils.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_server_worker.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_services_attribute.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_services_call.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_services_discovery.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_services_discovery_multicast.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_services_nodemanagement.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_services_securechannel.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_services_session.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_services_subscription.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_services_view.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_session.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_session_manager.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_subscription.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/server/ua_subscription_datachange.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/ua_connection.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/ua_securechannel.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/ua_timer.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/ua_types.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/ua_types_encoding_binary.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src/ua_util.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src_generated/ua_namespace0.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src_generated/ua_statuscode_descriptions.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src_generated/ua_transport_generated.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-object.dir/src_generated/ua_types_generated.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/plugins/ua_accesscontrol_default.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/plugins/ua_clock.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/plugins/ua_config_default.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/plugins/ua_log_stdout.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/plugins/ua_network_tcp.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/plugins/ua_nodestore_default.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/plugins/ua_pki_certificate.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/CMakeFiles/open62541-plugins.dir/plugins/ua_securitypolicy_none.c.o">
+			<Option target="open62541"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_config.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_namespace0.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_namespace0.c.rule">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_namespace0.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_statuscode_descriptions.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_statuscode_descriptions.c.rule">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_transport_generated.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_transport_generated.c.rule">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_transport_generated.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_transport_generated_encoding_binary.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_transport_generated_handling.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_types_generated.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_types_generated.c.rule">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_types_generated.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_types_generated_encoding_binary.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/build/src_generated/ua_types_generated_handling.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/deps/libc_time.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/deps/libc_time.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/deps/ms_stdint.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/deps/pcg_basic.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/deps/pcg_basic.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/deps/queue.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_client.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_client_highlevel.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_client_subscriptions.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_constants.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_plugin_access_control.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_plugin_log.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_plugin_network.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_plugin_nodestore.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_plugin_pki.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_plugin_securitypolicy.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_server.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_server_config.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_types.h">
+			<Option target="open62541-plugins"/>
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_accesscontrol_default.c">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_accesscontrol_default.h">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_clock.c">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_config_default.c">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_config_default.h">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_log_stdout.c">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_log_stdout.h">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_network_tcp.c">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_network_tcp.h">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_nodestore_default.c">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_nodestore_default.h">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_pki_certificate.c">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_pki_certificate.h">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_securitypolicy_none.c">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/plugins/ua_securitypolicy_none.h">
+			<Option target="open62541-plugins"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/client/ua_client.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/client/ua_client_connect.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/client/ua_client_discovery.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/client/ua_client_highlevel.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/client/ua_client_internal.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/client/ua_client_subscriptions.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/client/ua_client_subscriptions_deprecated.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_nodes.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_securechannel_manager.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_securechannel_manager.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_server.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_server_binary.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_server_discovery.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_server_internal.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_server_ns0.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_server_utils.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_server_worker.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services_attribute.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services_call.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services_discovery.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services_discovery_multicast.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services_nodemanagement.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services_securechannel.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services_session.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services_subscription.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_services_view.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_session.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_session.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_session_manager.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_session_manager.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_subscription.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_subscription.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/server/ua_subscription_datachange.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_connection.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_connection_internal.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_securechannel.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_securechannel.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_timer.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_timer.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_types.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_types_encoding_binary.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_types_encoding_binary.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_util.c">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/src/ua_util.h">
+			<Option target="open62541-object"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/tools/cmake/AssignSourceGroup.cmake">
+			<Option virtualFolder="CMake Files\tools\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/tools/cmake/FindClangTools.cmake">
+			<Option virtualFolder="CMake Files\tools\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/tools/cmake/open62541-config.cmake.in">
+			<Option virtualFolder="CMake Files\tools\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/tools/cmake/FindSphinx.cmake">
+			<Option virtualFolder="CMake Files\tools\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/ua_config.h.in">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/include/open62541.pc.in">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="/home/wxg/open62541/doc/conf.py">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
